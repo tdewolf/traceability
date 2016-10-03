@@ -1,1 +1,0 @@
-This directory is generated automatically by the WebDAV plugin. Any changes made here are not permanent and will not be saved back to Confluence.
