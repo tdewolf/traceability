@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <meta name="decorator" content="none" />
+        <base href="https://compass.collibra.com" />
+        <title>Use the Overview inset</title>
+        <style>
+            body, p, td, table, tr, .bodytext, .stepfield {
+	            font-family: Verdana, arial, sans-serif;
+            }
+            .panel {
+                margin: 10px;
+                padding: 10px;
+                border: 1px solid #999;
+                background-color: #f0f0f0;
+            }
+            .noteMacro { border-style: solid; border-width: 1px; border-color: #F0C000; background-color: #FFFFCE; text-align:left;}
+            .warningMacro { border-style: solid; border-width: 1px; border-color: #c00; background-color: #fcc; text-align:left;}
+            .infoMacro { border-style: solid; border-width: 1px; border-color: #3c78b5; background-color: #D8E4F1; text-align:left;}
+            .tipMacro { border-style: solid; border-width: 1px; border-color: #090; background-color: #dfd; text-align:left;}
+            .informationMacroPadding { padding: 5px 0 0 5px; }
+
+            table.infoMacro td, table.warningMacro td, table.tipMacro td, table.noteMacro td, table.sectionMacro td {
+                border: none;
+            }
+
+            .grid {
+                margin: 2px 0px 5px 0px;
+                border-collapse: collapse;
+            }
+            .grid th  {
+                border: 1px solid #ccc;
+                padding: 2px 4px 2px 4px;
+                background: #f0f0f0;
+                text-align: center;
+            }
+            .grid td  {
+                border: 1px solid #ccc;
+                padding: 3px 4px 3px 4px;
+            }
+        </style>
+    </head>
+
+    <body style="background-color: white; padding: 10px;">
+        <h1>Use the Overview inset</h1>
+        &lt;p&gt;&lt;img class=&quot;confluence-embedded-image&quot; src=&quot;/download/attachments/13177140/toolbar-location.png?version=1&amp;amp;modificationDate=1439388197523&amp;amp;api=v2&quot; data-image-src=&quot;/download/attachments/13177140/toolbar-location.png?version=1&amp;amp;modificationDate=1439388197523&amp;amp;api=v2&quot;&gt;&lt;/p&gt;&lt;p&gt; &lt;/p&gt;&lt;div class=&quot;table-wrap&quot;&gt;&lt;table class=&quot;confluenceTable&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;confluenceTd&quot;&gt;To hide or display the overview inset,&lt;/td&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p&gt;click the &lt;strong&gt;Overview&lt;/strong&gt; button.&lt;br /&gt;&lt;img class=&quot;confluence-embedded-image&quot; src=&quot;/download/attachments/13177140/location-overview-button.png?version=1&amp;amp;modificationDate=1439388197284&amp;amp;api=v2&quot; data-image-src=&quot;/download/attachments/13177140/location-overview-button.png?version=1&amp;amp;modificationDate=1439388197284&amp;amp;api=v2&quot;&gt; &lt;br /&gt;&lt;span&gt;An overview inset is displayed over the diagram. You can still see the diagram underneath.&lt;/span&gt; &lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan=&quot;1&quot; class=&quot;confluenceTd&quot;&gt;To zoom in or out by scaling,&lt;/td&gt;&lt;td colspan=&quot;1&quot; class=&quot;confluenceTd&quot;&gt;&lt;ol&gt;&lt;li&gt;&lt;span&gt;Click the &lt;strong&gt;Overview&lt;/strong&gt; button (&lt;/span&gt;&lt;img class=&quot;confluence-embedded-image confluence-thumbnail&quot; width=&quot;24&quot; src=&quot;/download/attachments/13177140/display-overview-button.png?version=1&amp;amp;modificationDate=1439388197246&amp;amp;api=v2&quot; data-image-src=&quot;/download/attachments/13177140/display-overview-button.png?version=1&amp;amp;modificationDate=1439388197246&amp;amp;api=v2&quot;&gt;).&lt;/li&gt;&lt;li&gt;Move your mouse pointer over the lower right corner of the blue square, until it turns into a sleek slanted arrow.&lt;br /&gt;&lt;img class=&quot;confluence-embedded-image&quot; width=&quot;350&quot; src=&quot;/download/attachments/13177140/slanting-arrow-minimap.png?version=1&amp;amp;modificationDate=1439388197497&amp;amp;api=v2&quot; data-image-src=&quot;/download/attachments/13177140/slanting-arrow-minimap.png?version=1&amp;amp;modificationDate=1439388197497&amp;amp;api=v2&quot;&gt;&lt;/li&gt;&lt;li&gt;Click and hold, then drag the pointer to zoom in or out.&lt;/li&gt;&lt;/ol&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;confluenceTd&quot;&gt;To navigate in the diagram,&lt;/td&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;ol&gt;&lt;li&gt;&lt;span&gt;Click the &lt;strong&gt;Overview&lt;/strong&gt; button (&lt;/span&gt;&lt;img class=&quot;confluence-embedded-image confluence-thumbnail&quot; width=&quot;24&quot; src=&quot;/download/attachments/13177140/display-overview-button.png?version=1&amp;amp;modificationDate=1439388197246&amp;amp;api=v2&quot; data-image-src=&quot;/download/attachments/13177140/display-overview-button.png?version=1&amp;amp;modificationDate=1439388197246&amp;amp;api=v2&quot;&gt;).&lt;/li&gt;&lt;li&gt;Move your mouse pointer over the blue square. The pointer turns into a four-way arrow.&lt;br /&gt;&lt;img class=&quot;confluence-embedded-image&quot; width=&quot;350&quot; src=&quot;/download/attachments/13177140/navigating-arrow-overview.png?version=1&amp;amp;modificationDate=1439388197336&amp;amp;api=v2&quot; data-image-src=&quot;/download/attachments/13177140/navigating-arrow-overview.png?version=1&amp;amp;modificationDate=1439388197336&amp;amp;api=v2&quot;&gt;&lt;/li&gt;&lt;li&gt;Click and hold, then drag the pointer to move the square to what you want to see.&lt;/li&gt;&lt;/ol&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;p&gt; &lt;/p&gt;&lt;p&gt; &lt;/p&gt;
+    </body>
+</html>

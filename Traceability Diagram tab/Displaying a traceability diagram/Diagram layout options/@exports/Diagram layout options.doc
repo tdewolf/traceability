@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <meta name="decorator" content="none" />
+        <base href="https://compass.collibra.com" />
+        <title>Diagram layout options</title>
+        <style>
+            body, p, td, table, tr, .bodytext, .stepfield {
+	            font-family: Verdana, arial, sans-serif;
+            }
+            .panel {
+                margin: 10px;
+                padding: 10px;
+                border: 1px solid #999;
+                background-color: #f0f0f0;
+            }
+            .noteMacro { border-style: solid; border-width: 1px; border-color: #F0C000; background-color: #FFFFCE; text-align:left;}
+            .warningMacro { border-style: solid; border-width: 1px; border-color: #c00; background-color: #fcc; text-align:left;}
+            .infoMacro { border-style: solid; border-width: 1px; border-color: #3c78b5; background-color: #D8E4F1; text-align:left;}
+            .tipMacro { border-style: solid; border-width: 1px; border-color: #090; background-color: #dfd; text-align:left;}
+            .informationMacroPadding { padding: 5px 0 0 5px; }
+
+            table.infoMacro td, table.warningMacro td, table.tipMacro td, table.noteMacro td, table.sectionMacro td {
+                border: none;
+            }
+
+            .grid {
+                margin: 2px 0px 5px 0px;
+                border-collapse: collapse;
+            }
+            .grid th  {
+                border: 1px solid #ccc;
+                padding: 2px 4px 2px 4px;
+                background: #f0f0f0;
+                text-align: center;
+            }
+            .grid td  {
+                border: 1px solid #ccc;
+                padding: 3px 4px 3px 4px;
+            }
+        </style>
+    </head>
+
+    <body style="background-color: white; padding: 10px;">
+        <h1>Diagram layout options</h1>
+        &lt;ul&gt;&lt;li&gt;&lt;strong&gt;Flow / Context&lt;/strong&gt;: Layout style for diagrams with a flow and a context. Nodes and edges in the flow are displayed mostly from left to right. The nodes and edges in a context are displayed above the flow.&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Hierarchy left -&amp;gt; right&lt;/strong&gt;&lt;span&gt;: Nodes and edges are displayed in a flow from left to right. This is the default setting.&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Hierarchy top -&amp;gt; down&lt;/strong&gt;: Nodes and edges are displayed in a flow from top to bottom.&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Hierarchy bottom -&amp;gt; up&lt;/strong&gt;: Nodes and edges are displayed in a flow from bottom to top.&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Circular&lt;/strong&gt;: &lt;span style=&quot;color: rgb(64,64,64);&quot;&gt;Nodes and edges are &lt;/span&gt; &lt;span style=&quot;color: rgb(64,64,64);&quot;&gt;arranged in a radial tree.&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;color: rgb(64,64,64);&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Radial&lt;/strong&gt;: &lt;span style=&quot;color: rgb(64,64,64);&quot;&gt;Nodes and edges are displayed with no overlaps, few edge crossings and few bends.&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;color: rgb(64,64,64);&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Smart Organic&lt;/strong&gt;: &lt;span style=&quot;color: rgb(64,64,64);&quot;&gt;Nodes and edges are distributed in a well-balanced manner, there are few edge crossings.&lt;/span&gt;&lt;span style=&quot;color: rgb(64,64,64);&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;
+    </body>
+</html>

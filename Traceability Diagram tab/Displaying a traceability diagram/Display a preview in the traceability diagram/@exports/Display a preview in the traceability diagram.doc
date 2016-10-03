@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <meta name="decorator" content="none" />
+        <base href="https://compass.collibra.com" />
+        <title>Display a preview in the traceability diagram</title>
+        <style>
+            body, p, td, table, tr, .bodytext, .stepfield {
+	            font-family: Verdana, arial, sans-serif;
+            }
+            .panel {
+                margin: 10px;
+                padding: 10px;
+                border: 1px solid #999;
+                background-color: #f0f0f0;
+            }
+            .noteMacro { border-style: solid; border-width: 1px; border-color: #F0C000; background-color: #FFFFCE; text-align:left;}
+            .warningMacro { border-style: solid; border-width: 1px; border-color: #c00; background-color: #fcc; text-align:left;}
+            .infoMacro { border-style: solid; border-width: 1px; border-color: #3c78b5; background-color: #D8E4F1; text-align:left;}
+            .tipMacro { border-style: solid; border-width: 1px; border-color: #090; background-color: #dfd; text-align:left;}
+            .informationMacroPadding { padding: 5px 0 0 5px; }
+
+            table.infoMacro td, table.warningMacro td, table.tipMacro td, table.noteMacro td, table.sectionMacro td {
+                border: none;
+            }
+
+            .grid {
+                margin: 2px 0px 5px 0px;
+                border-collapse: collapse;
+            }
+            .grid th  {
+                border: 1px solid #ccc;
+                padding: 2px 4px 2px 4px;
+                background: #f0f0f0;
+                text-align: center;
+            }
+            .grid td  {
+                border: 1px solid #ccc;
+                padding: 3px 4px 3px 4px;
+            }
+        </style>
+    </head>
+
+    <body style="background-color: white; padding: 10px;">
+        <h1>Display a preview in the traceability diagram</h1>
+        &lt;p&gt;The preview in the traceability diagram enables you to display detailed information about a node.&lt;/p&gt;&lt;p&gt;Follow these steps if you want to display detailed information about a node. &lt;/p&gt;&lt;ol&gt;&lt;li&gt;Open an asset page.&lt;/li&gt;&lt;li&gt;Click &lt;strong&gt;Traceability &amp;gt; Diagram&lt;/strong&gt;.&lt;/li&gt;&lt;li&gt;Select a node.&lt;/li&gt;&lt;li&gt;On the diagram toolbar, click &lt;img class=&quot;confluence-embedded-image confluence-thumbnail&quot; width=&quot;24&quot; src=&quot;/download/attachments/13177142/preview-button.png?version=1&amp;amp;modificationDate=1439412514167&amp;amp;api=v2&quot; data-image-src=&quot;/download/attachments/13177142/preview-button.png?version=1&amp;amp;modificationDate=1439412514167&amp;amp;api=v2&quot;&gt;.&lt;br /&gt;The preview panel is displayed on the right.&lt;br /&gt;You can now click any item that is underlined when you move your mouse pointer over it.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;img class=&quot;confluence-embedded-image&quot; width=&quot;800&quot; src=&quot;/download/attachments/13177142/diagram-preview-panel.png?version=1&amp;amp;modificationDate=1439412514112&amp;amp;api=v2&quot; data-image-src=&quot;/download/attachments/13177142/diagram-preview-panel.png?version=1&amp;amp;modificationDate=1439412514112&amp;amp;api=v2&quot;&gt;&lt;/p&gt;&lt;p&gt; &lt;/p&gt;
+    </body>
+</html>

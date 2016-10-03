@@ -1,0 +1,31 @@
+<p>One of the packaged diagram views is the&nbsp;<strong>Technical Lineage</strong>&nbsp;view.&nbsp;</p><p>Below is a visual representation of the view.</p><p><ac:image ac:width="900"><ri:attachment ri:filename="example-view-technical-lineage.png" /></ac:image></p><p>Below the JSON code of the view.</p><ac:structured-macro ac:name="code"><ac:parameter ac:name="linenumbers">true</ac:parameter><ac:plain-text-body><![CDATA[{
+  "showEdgeLabels": true,
+  "layout": "Flow/Context",
+  "nodes": [
+    {
+      "id": "Table Column",
+      "conceptTypeId": "00000000-0000-0000-0000-000000031008",
+      "layoutRegion": "flow"
+    },
+    {
+      "id": "Field Mapping",
+      "conceptTypeId": "00000000-0000-0000-0000-000000007502",
+      "layoutRegion": "flow",
+      "label": "Map"
+    }
+  ],
+  "edges": [
+    {
+      "from": "Field Mapping",
+      "to": "Table Column",
+      "binaryFactTypeId": "fe0b952a-4305-4cb5-ad81-9a9de368424d",
+      "roleDirection": true
+    },
+    {
+      "from": "Table Column",
+      "to": "Field Mapping",
+      "binaryFactTypeId": "7f196bdb-903b-4b19-86d9-da2ae152d07c",
+      "roleDirection": false
+    }
+  ]
+}]]></ac:plain-text-body></ac:structured-macro>

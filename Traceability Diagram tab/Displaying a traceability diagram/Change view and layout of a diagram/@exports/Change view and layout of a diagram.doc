@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <meta name="decorator" content="none" />
+        <base href="https://compass.collibra.com" />
+        <title>Change view and layout of a diagram</title>
+        <style>
+            body, p, td, table, tr, .bodytext, .stepfield {
+	            font-family: Verdana, arial, sans-serif;
+            }
+            .panel {
+                margin: 10px;
+                padding: 10px;
+                border: 1px solid #999;
+                background-color: #f0f0f0;
+            }
+            .noteMacro { border-style: solid; border-width: 1px; border-color: #F0C000; background-color: #FFFFCE; text-align:left;}
+            .warningMacro { border-style: solid; border-width: 1px; border-color: #c00; background-color: #fcc; text-align:left;}
+            .infoMacro { border-style: solid; border-width: 1px; border-color: #3c78b5; background-color: #D8E4F1; text-align:left;}
+            .tipMacro { border-style: solid; border-width: 1px; border-color: #090; background-color: #dfd; text-align:left;}
+            .informationMacroPadding { padding: 5px 0 0 5px; }
+
+            table.infoMacro td, table.warningMacro td, table.tipMacro td, table.noteMacro td, table.sectionMacro td {
+                border: none;
+            }
+
+            .grid {
+                margin: 2px 0px 5px 0px;
+                border-collapse: collapse;
+            }
+            .grid th  {
+                border: 1px solid #ccc;
+                padding: 2px 4px 2px 4px;
+                background: #f0f0f0;
+                text-align: center;
+            }
+            .grid td  {
+                border: 1px solid #ccc;
+                padding: 3px 4px 3px 4px;
+            }
+        </style>
+    </head>
+
+    <body style="background-color: white; padding: 10px;">
+        <h1>Change view and layout of a diagram</h1>
+        &lt;p&gt;If the current view or layout does not meet your needs, you can change them by taking the following steps:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Open an asset page.&lt;/li&gt;&lt;li&gt;Click &lt;strong&gt;Traceability &amp;gt; Diagram&lt;/strong&gt;.&lt;br /&gt;Wait for the diagram to render. &lt;/li&gt;&lt;li&gt;&lt;p&gt;Do one or more of the following:&lt;/p&gt;&lt;div class=&quot;table-wrap&quot;&gt;&lt;table class=&quot;confluenceTable&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;confluenceTd&quot;&gt;To select an other view,&lt;/td&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;span class=&quot;confluence-anchor-link&quot; id=&quot;Changeviewandlayoutofadiagram-changeview&quot;&gt;&lt;/span&gt;click the arrow next to the view name and select another view from the list. &lt;br /&gt;&lt;img class=&quot;confluence-embedded-image&quot; src=&quot;/download/attachments/13177148/select-view.png?version=1&amp;amp;modificationDate=1438074731836&amp;amp;api=v2&quot; data-image-src=&quot;/download/attachments/13177148/select-view.png?version=1&amp;amp;modificationDate=1438074731836&amp;amp;api=v2&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;confluenceTd&quot;&gt;To select an other layout,&lt;/td&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;span class=&quot;confluence-anchor-link&quot; id=&quot;Changeviewandlayoutofadiagram-changelayout&quot;&gt;&lt;/span&gt;click the arrow next to the currently selected layout and select a different one. &lt;br /&gt;Note: For more information about layouts, check &lt;a href=&quot;/display/DGC50/Detailed+description+of+JSON+syntax+for+diagram+views#DetaileddescriptionofJSONsyntaxfordiagramviews-layout&quot;&gt;here&lt;/a&gt;. &lt;br /&gt;&lt;img class=&quot;confluence-embedded-image&quot; src=&quot;/download/attachments/13177148/select-display.png?version=1&amp;amp;modificationDate=1438074746781&amp;amp;api=v2&quot; data-image-src=&quot;/download/attachments/13177148/select-display.png?version=1&amp;amp;modificationDate=1438074746781&amp;amp;api=v2&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan=&quot;1&quot; class=&quot;confluenceTd&quot;&gt;To move a node,&lt;/td&gt;&lt;td colspan=&quot;1&quot; class=&quot;confluenceTd&quot;&gt;&lt;ol&gt;&lt;li&gt;&lt;p&gt;Click a node and hold down your mouse button.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Move the node to where you want in the diagram and release the mouse button.&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;span&gt;Note that you cannot save the view with these changes. You can, however, export the diagram with these changes.&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;confluenceTd&quot;&gt;To go back to the original diagram,&lt;/td&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;span class=&quot;confluence-anchor-link&quot; id=&quot;Changeviewandlayoutofadiagram-original&quot;&gt;&lt;/span&gt;click the &lt;strong&gt;Redraw&lt;/strong&gt; button. &lt;br /&gt;Note: All your changes are undone.&lt;br /&gt;&lt;img class=&quot;confluence-embedded-image&quot; src=&quot;/download/attachments/13177148/location-restore-button.png?version=1&amp;amp;modificationDate=1438074141109&amp;amp;api=v2&quot; data-image-src=&quot;/download/attachments/13177148/location-restore-button.png?version=1&amp;amp;modificationDate=1438074141109&amp;amp;api=v2&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;/li&gt;&lt;/ol&gt;&lt;p&gt; &lt;/p&gt;
+    </body>
+</html>

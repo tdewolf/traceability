@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <meta name="decorator" content="none" />
+        <base href="https://compass.collibra.com" />
+        <title>Export a diagram to PDF</title>
+        <style>
+            body, p, td, table, tr, .bodytext, .stepfield {
+	            font-family: Verdana, arial, sans-serif;
+            }
+            .panel {
+                margin: 10px;
+                padding: 10px;
+                border: 1px solid #999;
+                background-color: #f0f0f0;
+            }
+            .noteMacro { border-style: solid; border-width: 1px; border-color: #F0C000; background-color: #FFFFCE; text-align:left;}
+            .warningMacro { border-style: solid; border-width: 1px; border-color: #c00; background-color: #fcc; text-align:left;}
+            .infoMacro { border-style: solid; border-width: 1px; border-color: #3c78b5; background-color: #D8E4F1; text-align:left;}
+            .tipMacro { border-style: solid; border-width: 1px; border-color: #090; background-color: #dfd; text-align:left;}
+            .informationMacroPadding { padding: 5px 0 0 5px; }
+
+            table.infoMacro td, table.warningMacro td, table.tipMacro td, table.noteMacro td, table.sectionMacro td {
+                border: none;
+            }
+
+            .grid {
+                margin: 2px 0px 5px 0px;
+                border-collapse: collapse;
+            }
+            .grid th  {
+                border: 1px solid #ccc;
+                padding: 2px 4px 2px 4px;
+                background: #f0f0f0;
+                text-align: center;
+            }
+            .grid td  {
+                border: 1px solid #ccc;
+                padding: 3px 4px 3px 4px;
+            }
+        </style>
+    </head>
+
+    <body style="background-color: white; padding: 10px;">
+        <h1>Export a diagram to PDF</h1>
+        &lt;p&gt;If you need a hardcopy of a diagram (for example to print it), you can export it to PDF file format.&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Open an asset page.&lt;/li&gt;&lt;li&gt;Click &lt;strong&gt;Traceability &amp;gt; Diagram&lt;/strong&gt;.&lt;/li&gt;&lt;li&gt;Display the diagram to meet your needs.&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;/display/DGC50/Change+view+and+layout+of+a+diagram#Changeviewandlayoutofadiagram-changeview&quot;&gt;Select a view.&lt;/a&gt;&lt;/li&gt;&lt;li&gt;If needed, do one or more of the following:&lt;a href=&quot;/display/DGC50/Change+view+and+layout+of+a+diagram#Changeviewandlayoutofadiagram-changeview&quot;&gt;&amp;nbsp;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;/display/DGC50/Change+view+and+layout+of+a+diagram#Changeviewandlayoutofadiagram-changelayout&quot;&gt;Select a layout.&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;/display/DGC50/Explore+a+node%27s+relations&quot;&gt;Explore.&lt;/a&gt;&lt;/li&gt;&lt;li&gt;move nodes, enable or disable labels, etc &lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;Click the &lt;strong&gt;Export to PDF&lt;/strong&gt; button.&lt;br /&gt;&lt;img class=&quot;confluence-embedded-image&quot; src=&quot;/download/attachments/13177143/location-export-button.png?version=1&amp;amp;modificationDate=1438080150695&amp;amp;api=v2&quot; data-image-src=&quot;/download/attachments/13177143/location-export-button.png?version=1&amp;amp;modificationDate=1438080150695&amp;amp;api=v2&quot;&gt;&lt;br /&gt;The PDF file is automatically downloaded to the download folder of your browser. The filename is simply &#39;diagram.pdf&#39;. &lt;/li&gt;&lt;/ol&gt;&lt;p&gt; &lt;/p&gt;
+    </body>
+</html>

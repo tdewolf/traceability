@@ -1,0 +1,97 @@
+<html>
+    <head>
+        <meta name="decorator" content="none" />
+        <base href="https://compass.collibra.com" />
+        <title>Traceability Diagram tab</title>
+        <style>
+            body, p, td, table, tr, .bodytext, .stepfield {
+	            font-family: Verdana, arial, sans-serif;
+            }
+            .panel {
+                margin: 10px;
+                padding: 10px;
+                border: 1px solid #999;
+                background-color: #f0f0f0;
+            }
+            .noteMacro { border-style: solid; border-width: 1px; border-color: #F0C000; background-color: #FFFFCE; text-align:left;}
+            .warningMacro { border-style: solid; border-width: 1px; border-color: #c00; background-color: #fcc; text-align:left;}
+            .infoMacro { border-style: solid; border-width: 1px; border-color: #3c78b5; background-color: #D8E4F1; text-align:left;}
+            .tipMacro { border-style: solid; border-width: 1px; border-color: #090; background-color: #dfd; text-align:left;}
+            .informationMacroPadding { padding: 5px 0 0 5px; }
+
+            table.infoMacro td, table.warningMacro td, table.tipMacro td, table.noteMacro td, table.sectionMacro td {
+                border: none;
+            }
+
+            .grid {
+                margin: 2px 0px 5px 0px;
+                border-collapse: collapse;
+            }
+            .grid th  {
+                border: 1px solid #ccc;
+                padding: 2px 4px 2px 4px;
+                background: #f0f0f0;
+                text-align: center;
+            }
+            .grid td  {
+                border: 1px solid #ccc;
+                padding: 3px 4px 3px 4px;
+            }
+        </style>
+    </head>
+
+    <body style="background-color: white; padding: 10px;">
+        <h1>Traceability Diagram tab</h1>
+        &lt;p&gt;The traceability diagram is a feature to display and interact with many assets and relations in an easy-to-read diagram. &lt;/p&gt;&lt;p&gt;Location: &lt;strong&gt;Asset page &amp;gt; Traceability &amp;gt; Diagram&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;line-height: 1.4285715;&quot;&gt;Below is an example of a traceability diagram: &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;img class=&quot;confluence-embedded-image&quot; width=&quot;900&quot; src=&quot;/download/attachments/13177054/45_diagram_example.png?version=1&amp;amp;modificationDate=1447153524819&amp;amp;api=v2&quot; data-image-src=&quot;/download/attachments/13177054/45_diagram_example.png?version=1&amp;amp;modificationDate=1447153524819&amp;amp;api=v2&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;The assets, relations and complex relations that are displayed here, as well as the way they are displayed, are determined by the diagram view that you have selected. &lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/p&gt;&lt;p&gt;The view for the example diagram is shown below: &lt;/p&gt;&lt;p&gt;&lt;img class=&quot;confluence-embedded-image&quot; width=&quot;800&quot; src=&quot;/download/attachments/13177054/45_diagram_view_example.png?version=1&amp;amp;modificationDate=1447153524838&amp;amp;api=v2&quot; data-image-src=&quot;/download/attachments/13177054/45_diagram_view_example.png?version=1&amp;amp;modificationDate=1447153524838&amp;amp;api=v2&quot;&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;For more information, read the following sections: &lt;/p&gt;&lt;p&gt;&lt;br /&gt;
+
+
+&lt;div class=&quot;plugin_pagetree&quot;&gt;
+
+        
+        
+    &lt;ul class=&quot;plugin_pagetree_children_list plugin_pagetree_children_list_noleftspace&quot;&gt;
+        &lt;div class=&quot;plugin_pagetree_children&quot;&gt;
+        &lt;/div&gt;
+    &lt;/ul&gt;
+
+    &lt;fieldset class=&quot;hidden&quot;&gt;
+        &lt;input type=&quot;hidden&quot; name=&quot;treeId&quot; value=&quot;&quot;&gt;
+        &lt;input type=&quot;hidden&quot; name=&quot;treeRequestId&quot; value=&quot;/plugins/pagetree/naturalchildren.action?decorator=none&amp;amp;excerpt=false&amp;amp;sort=position&amp;amp;reverse=false&amp;amp;disableLinks=false&amp;amp;expandCurrent=false&quot;&gt;
+        &lt;input type=&quot;hidden&quot; name=&quot;treePageId&quot; value=&quot;&quot;&gt;
+
+        &lt;input type=&quot;hidden&quot; name=&quot;noRoot&quot; value=&quot;false&quot;&gt;
+        &lt;input type=&quot;hidden&quot; name=&quot;rootPageId&quot; value=&quot;13177136&quot;&gt;
+
+        &lt;input type=&quot;hidden&quot; name=&quot;rootPage&quot; value=&quot;&quot;&gt;
+        &lt;input type=&quot;hidden&quot; name=&quot;startDepth&quot; value=&quot;0&quot;&gt;
+        &lt;input type=&quot;hidden&quot; name=&quot;spaceKey&quot; value=&quot;DGC50&quot; &gt;
+
+        &lt;input type=&quot;hidden&quot; name=&quot;i18n-pagetree.loading&quot; value=&quot;Loading...&quot;&gt;
+        &lt;input type=&quot;hidden&quot; name=&quot;i18n-pagetree.error.permission&quot; value=&quot;Unable to load page tree. It seems that you do not have permission to view the root page.&quot;&gt;
+        &lt;input type=&quot;hidden&quot; name=&quot;i18n-pagetree.eeror.general&quot; value=&quot;There was a problem retrieving the page tree. Please check the server log file for more information.&quot;&gt;
+        &lt;input type=&quot;hidden&quot; name=&quot;loginUrl&quot; value=&quot;/login.action?os_destination=%2Fplugins%2Fservlet%2Fconfluence%2Fdefault%2FGlobal%2FDGC50%2FProduct+Documentation%2FGeneral+functionalities%2FAbout+Asset+pages%2FAbout+traceability%2FTraceability+Diagram+tab%2F%40exports%2F&quot;&gt;
+        &lt;input type=&quot;hidden&quot; name=&quot;mobile&quot; value=&quot;false&quot;&gt;
+
+                &lt;fieldset class=&quot;hidden&quot;&gt;
+                            &lt;input type=&quot;hidden&quot; name=&quot;ancestorId&quot; value=&quot;13177136&quot;&gt;
+                    &lt;/fieldset&gt;
+    &lt;/fieldset&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;&lt;p&gt; &lt;/p&gt;&lt;p&gt; &lt;/p&gt;    &lt;div class=&quot;aui-message hint shadowed information-macro&quot;&gt;
+                    &lt;p class=&quot;title&quot;&gt;Traceability Groups and Diagram Views&lt;/p&gt;
+                            &lt;span class=&quot;aui-icon icon-hint&quot;&gt;Icon&lt;/span&gt;
+                &lt;div class=&quot;message-content&quot;&gt;
+                            &lt;p&gt;Please be aware that as of version 4.5, traceability groups still exist but they no longer govern traceability diagrams (they still govern the Add, Assets and People tabs). &lt;br /&gt;Instead, &lt;em&gt;&lt;strong&gt;diagram views&lt;/strong&gt;&lt;/em&gt; now govern traceability diagrams. &lt;br /&gt;If you upgrade to 4.5 from a DGC where you had defined traceability groups to govern traceability diagrams, you need to (manually) define diagram views in 4.5 that are similar to the traceability groups.&lt;/p&gt;
+                    &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;aui-message hint shadowed information-macro&quot;&gt;
+                    &lt;p class=&quot;title&quot;&gt;New Traceability Diagrams are not available in IE8&lt;/p&gt;
+                            &lt;span class=&quot;aui-icon icon-hint&quot;&gt;Icon&lt;/span&gt;
+                &lt;div class=&quot;message-content&quot;&gt;
+                            &lt;p&gt;The new traceability diagram functionality (added in version 4.5) is not available for Internet Explorer 8. &lt;br /&gt;When you open a 4.5 traceability diagram in IE8, you see an empty diagram with the recommendation to upgrade to a mordern browser.&lt;/p&gt;
+                    &lt;/div&gt;
+    &lt;/div&gt;
+&lt;p&gt; &lt;/p&gt;&lt;p&gt; &lt;/p&gt;&lt;p&gt; &lt;/p&gt;
+    </body>
+</html>

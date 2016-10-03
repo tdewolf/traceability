@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <meta name="decorator" content="none" />
+        <base href="https://compass.collibra.com" />
+        <title>Explore a node&#39;s relations</title>
+        <style>
+            body, p, td, table, tr, .bodytext, .stepfield {
+	            font-family: Verdana, arial, sans-serif;
+            }
+            .panel {
+                margin: 10px;
+                padding: 10px;
+                border: 1px solid #999;
+                background-color: #f0f0f0;
+            }
+            .noteMacro { border-style: solid; border-width: 1px; border-color: #F0C000; background-color: #FFFFCE; text-align:left;}
+            .warningMacro { border-style: solid; border-width: 1px; border-color: #c00; background-color: #fcc; text-align:left;}
+            .infoMacro { border-style: solid; border-width: 1px; border-color: #3c78b5; background-color: #D8E4F1; text-align:left;}
+            .tipMacro { border-style: solid; border-width: 1px; border-color: #090; background-color: #dfd; text-align:left;}
+            .informationMacroPadding { padding: 5px 0 0 5px; }
+
+            table.infoMacro td, table.warningMacro td, table.tipMacro td, table.noteMacro td, table.sectionMacro td {
+                border: none;
+            }
+
+            .grid {
+                margin: 2px 0px 5px 0px;
+                border-collapse: collapse;
+            }
+            .grid th  {
+                border: 1px solid #ccc;
+                padding: 2px 4px 2px 4px;
+                background: #f0f0f0;
+                text-align: center;
+            }
+            .grid td  {
+                border: 1px solid #ccc;
+                padding: 3px 4px 3px 4px;
+            }
+        </style>
+    </head>
+
+    <body style="background-color: white; padding: 10px;">
+        <h1>Explore a node&#39;s relations</h1>
+        &lt;p&gt;There are two ways to explore a node&#39;s relations: &lt;/p&gt;&lt;ul&gt;&lt;li&gt;Open the packaged view called &#39;Explore&#39;. &lt;br /&gt;Initially, this view will only show the start asset, and nothing else. &lt;/li&gt;&lt;li&gt;Open any other view, and use explore mode &lt;span style=&quot;line-height: 1.4285715;&quot;&gt;to do an ad-hoc investigation of the relations of (one or several) asset by using the Explore mode.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ol&gt;&lt;li&gt;Open an asset page.&lt;/li&gt;&lt;li&gt;Click &lt;strong&gt;Traceability &amp;gt; Diagram&lt;/strong&gt;.&lt;br /&gt;Wait for the diagram to render. &lt;/li&gt;&lt;/ol&gt;&lt;p&gt;Move your mouse pointer over a node (asset or complex relation).&lt;br /&gt;You can now see the &lt;img class=&quot;confluence-embedded-image confluence-thumbnail&quot; width=&quot;16&quot; src=&quot;/download/attachments/13177141/explore-button.png?version=1&amp;amp;modificationDate=1438079756507&amp;amp;api=v2&quot; data-image-src=&quot;/download/attachments/13177141/explore-button.png?version=1&amp;amp;modificationDate=1438079756507&amp;amp;api=v2&quot;&gt; button on the upper righthand corner of the node.&lt;br /&gt;&lt;img class=&quot;confluence-embedded-image&quot; src=&quot;/download/attachments/13177141/explore.png?version=1&amp;amp;modificationDate=1437038095775&amp;amp;api=v2&quot; data-image-src=&quot;/download/attachments/13177141/explore.png?version=1&amp;amp;modificationDate=1437038095775&amp;amp;api=v2&quot;&gt;&lt;br /&gt;&lt;span style=&quot;line-height: 1.4285715;&quot;&gt;Click the&lt;/span&gt;&lt;strong style=&quot;line-height: 1.4285715;&quot;&gt; &lt;img class=&quot;confluence-embedded-image confluence-thumbnail&quot; width=&quot;16&quot; src=&quot;/download/attachments/13177141/explore-button.png?version=1&amp;amp;modificationDate=1438079756507&amp;amp;api=v2&quot; data-image-src=&quot;/download/attachments/13177141/explore-button.png?version=1&amp;amp;modificationDate=1438079756507&amp;amp;api=v2&quot;&gt; &lt;/strong&gt;&lt;span style=&quot;line-height: 1.4285715;&quot;&gt;button to &#39;explore the node&#39;. &lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;line-height: 1.4285715;&quot;&gt;You are now entering explore mode. &lt;/span&gt;&lt;/p&gt;    &lt;div class=&quot;aui-message hint shadowed information-macro&quot;&gt;
+                    &lt;p class=&quot;title&quot;&gt;Note&lt;/p&gt;
+                            &lt;span class=&quot;aui-icon icon-hint&quot;&gt;Icon&lt;/span&gt;
+                &lt;div class=&quot;message-content&quot;&gt;
+                            &lt;p&gt;&lt;span&gt;In explore mode, DGC may draw a simplified version of your diagram. &lt;br /&gt;The following view aspects are incompatible with explore mode.  &lt;/span&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;if the view layout is &#39;flow/context&#39;, DGC changes it to &#39;Hierarchy left/right&#39;. &lt;/span&gt;&lt;/li&gt;&lt;li&gt; if the view allows duplicates, DGC changes it to not allow duplicates&lt;/li&gt;&lt;li&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;if the view contains an edge that has a &#39;boxed&#39; style, DGC changes it to &#39;arrow&#39; style&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt; &lt;/p&gt;
+                    &lt;/div&gt;
+    &lt;/div&gt;
+&lt;p&gt;&lt;span style=&quot;line-height: 1.4285715;&quot;&gt; - Any node with a relation to the explored node are added to the diagram. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;line-height: 1.4285715;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;line-height: 1.4285715;&quot;&gt;Move your mouse pointer over one of the added nodes and click &lt;/span&gt;&lt;img class=&quot;confluence-embedded-image confluence-thumbnail&quot; width=&quot;16&quot; src=&quot;/download/attachments/13177141/explore-button.png?version=1&amp;amp;modificationDate=1438079756507&amp;amp;api=v2&quot; data-image-src=&quot;/download/attachments/13177141/explore-button.png?version=1&amp;amp;modificationDate=1438079756507&amp;amp;api=v2&quot;&gt;&lt;span style=&quot;line-height: 1.4285715;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;line-height: 1.4285715;&quot;&gt;again.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;line-height: 1.4285715;&quot;&gt;Keep on following the traces you want to explore by clicking the &lt;/span&gt;&lt;img class=&quot;confluence-embedded-image confluence-thumbnail&quot; width=&quot;16&quot; src=&quot;/download/attachments/13177141/explore-button.png?version=1&amp;amp;modificationDate=1438079756507&amp;amp;api=v2&quot; data-image-src=&quot;/download/attachments/13177141/explore-button.png?version=1&amp;amp;modificationDate=1438079756507&amp;amp;api=v2&quot;&gt;&lt;span style=&quot;line-height: 1.4285715;&quot;&gt; buttons on other nodes.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;line-height: 1.4285715;&quot;&gt;You can remove the nodes and edges that you explored by clicking the &lt;/span&gt;&lt;img class=&quot;confluence-embedded-image confluence-thumbnail&quot; width=&quot;16&quot; src=&quot;/download/attachments/13177141/collapse-button.png?version=1&amp;amp;modificationDate=1438872483507&amp;amp;api=v2&quot; data-image-src=&quot;/download/attachments/13177141/collapse-button.png?version=1&amp;amp;modificationDate=1438872483507&amp;amp;api=v2&quot;&gt;&lt;span style=&quot;line-height: 1.4285715;&quot;&gt; button on the node.&lt;/span&gt;&lt;/p&gt;&lt;p&gt; &lt;/p&gt;
+    </body>
+</html>

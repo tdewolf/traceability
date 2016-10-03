@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <meta name="decorator" content="none" />
+        <base href="https://compass.collibra.com" />
+        <title>Jump to a related asset&#39;s diagram</title>
+        <style>
+            body, p, td, table, tr, .bodytext, .stepfield {
+	            font-family: Verdana, arial, sans-serif;
+            }
+            .panel {
+                margin: 10px;
+                padding: 10px;
+                border: 1px solid #999;
+                background-color: #f0f0f0;
+            }
+            .noteMacro { border-style: solid; border-width: 1px; border-color: #F0C000; background-color: #FFFFCE; text-align:left;}
+            .warningMacro { border-style: solid; border-width: 1px; border-color: #c00; background-color: #fcc; text-align:left;}
+            .infoMacro { border-style: solid; border-width: 1px; border-color: #3c78b5; background-color: #D8E4F1; text-align:left;}
+            .tipMacro { border-style: solid; border-width: 1px; border-color: #090; background-color: #dfd; text-align:left;}
+            .informationMacroPadding { padding: 5px 0 0 5px; }
+
+            table.infoMacro td, table.warningMacro td, table.tipMacro td, table.noteMacro td, table.sectionMacro td {
+                border: none;
+            }
+
+            .grid {
+                margin: 2px 0px 5px 0px;
+                border-collapse: collapse;
+            }
+            .grid th  {
+                border: 1px solid #ccc;
+                padding: 2px 4px 2px 4px;
+                background: #f0f0f0;
+                text-align: center;
+            }
+            .grid td  {
+                border: 1px solid #ccc;
+                padding: 3px 4px 3px 4px;
+            }
+        </style>
+    </head>
+
+    <body style="background-color: white; padding: 10px;">
+        <h1>Jump to a related asset&#39;s diagram</h1>
+        &lt;p&gt;&lt;span class=&quot;confluence-anchor-link&quot; id=&quot;Jumptoarelatedasset&amp;#39;sdiagram-jump&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;If you are viewing a diagram for a given asset, you can apply the same diagram view to an asset in the diagram with a single click. &lt;/p&gt;&lt;ol&gt;&lt;li&gt;Open an asset page.&lt;/li&gt;&lt;li&gt;Click &lt;strong&gt;Traceability &amp;gt; Diagram&lt;/strong&gt;.&lt;br /&gt;&lt;span style=&quot;line-height: 1.4285715;&quot;&gt;Wait for the diagram to render. &lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;line-height: 1.4285715;&quot;&gt;Move your mouse pointer over a node. &lt;br /&gt;The &lt;/span&gt;&lt;img class=&quot;confluence-embedded-image confluence-thumbnail&quot; width=&quot;20&quot; src=&quot;/download/attachments/13177139/jump-button.png?version=1&amp;amp;modificationDate=1439317330729&amp;amp;api=v2&quot; data-image-src=&quot;/download/attachments/13177139/jump-button.png?version=1&amp;amp;modificationDate=1439317330729&amp;amp;api=v2&quot;&gt;&lt;span style=&quot;line-height: 1.4285715;&quot;&gt; button appears in the upper left corner of the node.&lt;br /&gt; &lt;/span&gt;&lt;img class=&quot;confluence-embedded-image&quot; src=&quot;/download/attachments/13177139/jump.png?version=1&amp;amp;modificationDate=1439317330740&amp;amp;api=v2&quot; data-image-src=&quot;/download/attachments/13177139/jump.png?version=1&amp;amp;modificationDate=1439317330740&amp;amp;api=v2&quot;&gt;&lt;span style=&quot;line-height: 1.4285715;&quot;&gt; &lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;line-height: 1.4285715;&quot;&gt;Click the&lt;/span&gt;&lt;strong style=&quot;line-height: 1.4285715;&quot;&gt; &lt;img class=&quot;confluence-embedded-image confluence-thumbnail&quot; width=&quot;20&quot; src=&quot;/download/attachments/13177139/jump-button.png?version=1&amp;amp;modificationDate=1439317330729&amp;amp;api=v2&quot; data-image-src=&quot;/download/attachments/13177139/jump-button.png?version=1&amp;amp;modificationDate=1439317330729&amp;amp;api=v2&quot;&gt; &lt;/strong&gt;&lt;span style=&quot;line-height: 1.4285715;&quot;&gt;button. &lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;line-height: 1.4285715;&quot;&gt;The diagram changes and becomes the diagram for the new node. DGC applies the same diagram view to this node.&lt;br /&gt;Note: Only the diagram has changed, the rest of the asset page still refers to the asset you started from.&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;line-height: 1.4285715;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;    &lt;div class=&quot;aui-message success shadowed information-macro&quot;&gt;
+                            &lt;span class=&quot;aui-icon icon-success&quot;&gt;Icon&lt;/span&gt;
+                &lt;div class=&quot;message-content&quot;&gt;
+                            &lt;p&gt;To return to the original diagram, click the &lt;img class=&quot;confluence-embedded-image confluence-thumbnail&quot; width=&quot;24&quot; src=&quot;/download/attachments/13177139/restore-button.png?version=1&amp;amp;modificationDate=1439413605160&amp;amp;api=v2&quot; data-image-src=&quot;/download/attachments/13177139/restore-button.png?version=1&amp;amp;modificationDate=1439413605160&amp;amp;api=v2&quot;&gt; button. &lt;/p&gt;
+                    &lt;/div&gt;
+    &lt;/div&gt;
+&lt;p&gt;&lt;span style=&quot;line-height: 1.4285715;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt; &lt;/p&gt;&lt;p&gt;&lt;span style=&quot;line-height: 1.4285715;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;line-height: 1.4285715;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;line-height: 1.4285715;&quot;&gt; &lt;/span&gt;&lt;/p&gt;&lt;p&gt; &lt;/p&gt;&lt;p&gt; &lt;/p&gt;
+    </body>
+</html>

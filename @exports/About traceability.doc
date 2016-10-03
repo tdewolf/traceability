@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <meta name="decorator" content="none" />
+        <base href="https://compass.collibra.com" />
+        <title>About traceability</title>
+        <style>
+            body, p, td, table, tr, .bodytext, .stepfield {
+	            font-family: Verdana, arial, sans-serif;
+            }
+            .panel {
+                margin: 10px;
+                padding: 10px;
+                border: 1px solid #999;
+                background-color: #f0f0f0;
+            }
+            .noteMacro { border-style: solid; border-width: 1px; border-color: #F0C000; background-color: #FFFFCE; text-align:left;}
+            .warningMacro { border-style: solid; border-width: 1px; border-color: #c00; background-color: #fcc; text-align:left;}
+            .infoMacro { border-style: solid; border-width: 1px; border-color: #3c78b5; background-color: #D8E4F1; text-align:left;}
+            .tipMacro { border-style: solid; border-width: 1px; border-color: #090; background-color: #dfd; text-align:left;}
+            .informationMacroPadding { padding: 5px 0 0 5px; }
+
+            table.infoMacro td, table.warningMacro td, table.tipMacro td, table.noteMacro td, table.sectionMacro td {
+                border: none;
+            }
+
+            .grid {
+                margin: 2px 0px 5px 0px;
+                border-collapse: collapse;
+            }
+            .grid th  {
+                border: 1px solid #ccc;
+                padding: 2px 4px 2px 4px;
+                background: #f0f0f0;
+                text-align: center;
+            }
+            .grid td  {
+                border: 1px solid #ccc;
+                padding: 3px 4px 3px 4px;
+            }
+        </style>
+    </head>
+
+    <body style="background-color: white; padding: 10px;">
+        <h1>About traceability</h1>
+        &lt;p&gt;Location: &lt;strong&gt;Asset page &amp;gt; Traceability&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;In Collibra Data Governance Center, you can display an asset&#39;s traceability. Traceability is essential for impact analysis. This feature helps you to quickly see to which other assets a specific asset is connected. Two assets are connected if you can navigate from one asset to another by traversing one or more relations.&lt;/p&gt;&lt;p&gt;With this feature, you can keep track of:&lt;/p&gt;&lt;ul style=&quot;list-style-type: square;&quot;&gt;&lt;li&gt;Relationships between assets, even if they are indirect&lt;/li&gt;&lt;li&gt;People involved with a specific asset&lt;/li&gt;&lt;li&gt;References in other assets&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Example: You can check the governance resources to which an asset is connected. You can find in which database tables a certain business term is stored.&lt;/p&gt;&lt;p&gt;Not every relation that is displayed in an asset&#39;s &lt;strong&gt;Overview&lt;/strong&gt; tab is taken into account for the traceability.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;The &lt;strong&gt;Overview&lt;/strong&gt; tab displays each relation type that is defined in the attribute assignment group of the asset type and the first relation type in a trace.&lt;/li&gt;&lt;li&gt;The &lt;strong&gt;Traceability&lt;/strong&gt; tab displays each relation type that is defined in the traceability assignment group of the asset type.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt; &lt;/p&gt;
+    </body>
+</html>

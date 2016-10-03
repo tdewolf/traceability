@@ -1,0 +1,86 @@
+<html>
+    <head>
+        <meta name="decorator" content="none" />
+        <base href="https://compass.collibra.com" />
+        <title>Example diagram view: Business Lineage</title>
+        <style>
+            body, p, td, table, tr, .bodytext, .stepfield {
+	            font-family: Verdana, arial, sans-serif;
+            }
+            .panel {
+                margin: 10px;
+                padding: 10px;
+                border: 1px solid #999;
+                background-color: #f0f0f0;
+            }
+            .noteMacro { border-style: solid; border-width: 1px; border-color: #F0C000; background-color: #FFFFCE; text-align:left;}
+            .warningMacro { border-style: solid; border-width: 1px; border-color: #c00; background-color: #fcc; text-align:left;}
+            .infoMacro { border-style: solid; border-width: 1px; border-color: #3c78b5; background-color: #D8E4F1; text-align:left;}
+            .tipMacro { border-style: solid; border-width: 1px; border-color: #090; background-color: #dfd; text-align:left;}
+            .informationMacroPadding { padding: 5px 0 0 5px; }
+
+            table.infoMacro td, table.warningMacro td, table.tipMacro td, table.noteMacro td, table.sectionMacro td {
+                border: none;
+            }
+
+            .grid {
+                margin: 2px 0px 5px 0px;
+                border-collapse: collapse;
+            }
+            .grid th  {
+                border: 1px solid #ccc;
+                padding: 2px 4px 2px 4px;
+                background: #f0f0f0;
+                text-align: center;
+            }
+            .grid td  {
+                border: 1px solid #ccc;
+                padding: 3px 4px 3px 4px;
+            }
+        </style>
+    </head>
+
+    <body style="background-color: white; padding: 10px;">
+        <h1>Example diagram view: Business Lineage</h1>
+        &lt;p&gt;One of the packaged diagram views is the &lt;strong&gt;Business Lineage&lt;/strong&gt; view. &lt;/p&gt;&lt;p&gt;Below is a visual representation of the view.&lt;/p&gt;&lt;p&gt;&lt;img class=&quot;confluence-embedded-image&quot; width=&quot;900&quot; src=&quot;/download/attachments/13177136/45_diagram_view_business_lineage.png?version=1&amp;amp;modificationDate=1439400693148&amp;amp;api=v2&quot; data-image-src=&quot;/download/attachments/13177136/45_diagram_view_business_lineage.png?version=1&amp;amp;modificationDate=1439400693148&amp;amp;api=v2&quot;&gt;&lt;/p&gt;&lt;p&gt;The view draws the flow from &lt;strong&gt;Data Structure&lt;/strong&gt; to &lt;strong&gt;Data Structure,&lt;/strong&gt; through &lt;strong&gt;Mapping Specification&lt;/strong&gt;, with a layer of context in the form of Business Assets that represent the Data Structures.&lt;/p&gt;&lt;p&gt;You can use this view for any of the three asset types in the view, or for any of their child asset types (Business Term, Database Table, etc.). &lt;/p&gt;&lt;p&gt; &lt;/p&gt;&lt;p&gt;Below is the JSON code of the view.&lt;/p&gt;&lt;div class=&quot;code panel pdl&quot; style=&quot;border-width: 1px;&quot;&gt;&lt;div class=&quot;codeHeader panelHeader pdl&quot; style=&quot;border-bottom-width: 1px;&quot;&gt;&lt;b&gt;Technical Lineage&lt;/b&gt;&lt;/div&gt;&lt;div class=&quot;codeContent panelContent pdl&quot;&gt;
+&lt;pre class=&quot;theme: Confluence; brush: groovy; gutter: true&quot; style=&quot;font-size:12px;&quot;&gt;{
+  &amp;quot;layout&amp;quot;: &amp;quot;Flow/Context&amp;quot;,
+  &amp;quot;nodes&amp;quot;: [
+    {
+      &amp;quot;id&amp;quot;: &amp;quot;Mapping Specification&amp;quot;,
+      &amp;quot;conceptTypeId&amp;quot;: &amp;quot;00000000-0000-0000-0000-000000031030&amp;quot;
+    },
+    {
+      &amp;quot;id&amp;quot;: &amp;quot;Data Structure&amp;quot;,
+      &amp;quot;conceptTypeId&amp;quot;: &amp;quot;00000000-0000-0000-0000-000000031025&amp;quot;
+    },
+    {
+      &amp;quot;id&amp;quot;: &amp;quot;Business Asset&amp;quot;,
+      &amp;quot;conceptTypeId&amp;quot;: &amp;quot;00000000-0000-0000-0000-000000031101&amp;quot;,
+      &amp;quot;layoutRegion&amp;quot;: &amp;quot;context&amp;quot;
+    }
+  ],
+  &amp;quot;edges&amp;quot;: [
+    {
+      &amp;quot;from&amp;quot;: &amp;quot;Data Structure&amp;quot;,
+      &amp;quot;to&amp;quot;: &amp;quot;Business Asset&amp;quot;,
+      &amp;quot;binaryFactTypeId&amp;quot;: &amp;quot;00000000-0000-0000-0000-000000007038&amp;quot;,
+      &amp;quot;roleDirection&amp;quot;: false
+    },
+    {
+      &amp;quot;from&amp;quot;: &amp;quot;Data Structure&amp;quot;,
+      &amp;quot;to&amp;quot;: &amp;quot;Mapping Specification&amp;quot;,
+      &amp;quot;binaryFactTypeId&amp;quot;: &amp;quot;00000000-0000-0000-0000-000000007028&amp;quot;,
+      &amp;quot;roleDirection&amp;quot;: true
+    },
+    {
+      &amp;quot;from&amp;quot;: &amp;quot;Mapping Specification&amp;quot;,
+      &amp;quot;to&amp;quot;: &amp;quot;Data Structure&amp;quot;,
+      &amp;quot;binaryFactTypeId&amp;quot;: &amp;quot;00000000-0000-0000-0000-000000007029&amp;quot;,
+      &amp;quot;roleDirection&amp;quot;: false
+    }
+  ]
+}&lt;/pre&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;p&gt; &lt;/p&gt;&lt;p&gt;Note: &lt;/p&gt;&lt;p&gt;Any edge between a flow and a context node has to point from the flow node to the context node, otherwise the relation is not traversed. &lt;br /&gt;In this example, the edge between &lt;strong&gt;Data Structure&lt;/strong&gt; and &lt;strong&gt;Business Asset&lt;/strong&gt; has to go &lt;strong&gt;&lt;em&gt;from &lt;/em&gt;&lt;/strong&gt;Data Structure &lt;em&gt;&lt;strong&gt;to&lt;/strong&gt;&lt;/em&gt; Business Asset &lt;br /&gt;If the edge would be going in the other direction, the view would still be regarded as valid, but the flow/context edge would not be traversed and consequently, business assets would not be shown. &lt;/p&gt;&lt;p&gt; &lt;/p&gt;
+    </body>
+</html>

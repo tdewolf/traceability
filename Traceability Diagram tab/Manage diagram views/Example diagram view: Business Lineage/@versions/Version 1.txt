@@ -1,0 +1,38 @@
+<p>One of the packaged diagram views is the <strong>Business Lineage</strong> view.&nbsp;</p><p>Below is a visual representation of the view.</p><p><ac:image ac:width="900"><ri:attachment ri:filename="45_diagram_view_business_lineage.png"><ri:page ri:content-title="Traceability Diagram tab" /></ri:attachment></ac:image></p><p>The view draws the flow from <strong>Data Structure</strong> to <strong>Data Structure,</strong>&nbsp;through <strong>Mapping Specification</strong>, with a layer of context in the form of Business Assets that represent the Data Structures.</p><p>You can use this view for any of the three asset types in the view, or for any of their child asset types (Business Term, Database Table, etc.).&nbsp;</p><p>&nbsp;</p><p>Below is the JSON code of the view.</p><ac:structured-macro ac:name="code"><ac:parameter ac:name="title">Technical Lineage</ac:parameter><ac:parameter ac:name="linenumbers">true</ac:parameter><ac:parameter ac:name="language">groovy</ac:parameter><ac:plain-text-body><![CDATA[{
+  "layout": "Flow/Context",
+  "nodes": [
+    {
+      "id": "Mapping Specification",
+      "conceptTypeId": "00000000-0000-0000-0000-000000031030"
+    },
+    {
+      "id": "Data Structure",
+      "conceptTypeId": "00000000-0000-0000-0000-000000031025"
+    },
+    {
+      "id": "Business Asset",
+      "conceptTypeId": "00000000-0000-0000-0000-000000031101",
+      "layoutRegion": "context"
+    }
+  ],
+  "edges": [
+    {
+      "from": "Data Structure",
+      "to": "Business Asset",
+      "binaryFactTypeId": "00000000-0000-0000-0000-000000007038",
+      "roleDirection": false
+    },
+    {
+      "from": "Data Structure",
+      "to": "Mapping Specification",
+      "binaryFactTypeId": "00000000-0000-0000-0000-000000007028",
+      "roleDirection": true
+    },
+    {
+      "from": "Mapping Specification",
+      "to": "Data Structure",
+      "binaryFactTypeId": "00000000-0000-0000-0000-000000007029",
+      "roleDirection": false
+    }
+  ]
+}]]></ac:plain-text-body></ac:structured-macro><p>&nbsp;</p><p>Note:&nbsp;</p><p>Any edge between a flow and a context node has to point from the flow node to the context node, otherwise the relation is not traversed.&nbsp;<br />In this example, the edge between <strong>Data Structure</strong>&nbsp;and <strong>Business Asset</strong>&nbsp;has to go <strong><em>from </em></strong>Data Structure&nbsp;<em><strong>to</strong></em>&nbsp;Business Asset&nbsp;<br />If the edge would be going in the other direction, the view would still be regarded as valid, but the flow/context edge would not be traversed and consequently, business assets would not be shown.&nbsp;</p><p>&nbsp;</p>

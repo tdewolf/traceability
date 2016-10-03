@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <meta name="decorator" content="none" />
+        <base href="https://compass.collibra.com" />
+        <title>Displaying a traceability diagram</title>
+        <style>
+            body, p, td, table, tr, .bodytext, .stepfield {
+	            font-family: Verdana, arial, sans-serif;
+            }
+            .panel {
+                margin: 10px;
+                padding: 10px;
+                border: 1px solid #999;
+                background-color: #f0f0f0;
+            }
+            .noteMacro { border-style: solid; border-width: 1px; border-color: #F0C000; background-color: #FFFFCE; text-align:left;}
+            .warningMacro { border-style: solid; border-width: 1px; border-color: #c00; background-color: #fcc; text-align:left;}
+            .infoMacro { border-style: solid; border-width: 1px; border-color: #3c78b5; background-color: #D8E4F1; text-align:left;}
+            .tipMacro { border-style: solid; border-width: 1px; border-color: #090; background-color: #dfd; text-align:left;}
+            .informationMacroPadding { padding: 5px 0 0 5px; }
+
+            table.infoMacro td, table.warningMacro td, table.tipMacro td, table.noteMacro td, table.sectionMacro td {
+                border: none;
+            }
+
+            .grid {
+                margin: 2px 0px 5px 0px;
+                border-collapse: collapse;
+            }
+            .grid th  {
+                border: 1px solid #ccc;
+                padding: 2px 4px 2px 4px;
+                background: #f0f0f0;
+                text-align: center;
+            }
+            .grid td  {
+                border: 1px solid #ccc;
+                padding: 3px 4px 3px 4px;
+            }
+        </style>
+    </head>
+
+    <body style="background-color: white; padding: 10px;">
+        <h1>Displaying a traceability diagram</h1>
+        &lt;p&gt;You can perform the following actions when displaying a diagram:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Change the &lt;a href=&quot;/display/DGC50/Change+view+and+layout+of+a+diagram#Changeviewandlayoutofadiagram-changeview&quot;&gt;view&lt;/a&gt; and &lt;a href=&quot;/display/DGC50/Change+view+and+layout+of+a+diagram#Changeviewandlayoutofadiagram-layout&quot;&gt;layout&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;/display/DGC50/Manage+diagram+views&quot;&gt;Manage diagram views&lt;/a&gt;: create, modify, copy or delete views&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;/display/DGC50/Traceability+diagram+Display+toolbar%3A+buttons&quot;&gt;Select a node and dim all the nodes that are not directly related to it&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;/display/DGC50/Traceability+diagram+Display+toolbar%3A+buttons&quot;&gt;Display the diagram on a full screen&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;/display/DGC50/Display+a+preview+in+the+traceability+diagram&quot;&gt;Display a preview in the traceability diagram&lt;/a&gt;: display a preview of a selected asset&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;/display/DGC50/Traceability+diagram+Display+toolbar%3A+buttons&quot;&gt;Display or hide the labels of the edges&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;/display/DGC50/Explore+a+node%27s+relations&quot;&gt;Explore a node&#39;s relations&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;/display/DGC50/Export+a+diagram+to+PDF&quot;&gt;Export the diagram to PDF&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;/display/DGC50/Jump+to+a+related+asset%27s+diagram&quot;&gt;Jump to a related asset&#39;s diagram&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;/display/DGC50/Change+view+and+layout+of+a+diagram&quot;&gt;Move nodes&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;/display/DGC50/Change+view+and+layout+of+a+diagram#Changeviewandlayoutofadiagram-original&quot;&gt;Undo the display changes&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;/display/DGC50/Use+the+Overview+inset&quot;&gt;Use an overview inset&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;/display/DGC50/Zoom+in+or+out&quot;&gt;Zoom in or out&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+    </body>
+</html>

@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <meta name="decorator" content="none" />
+        <base href="https://compass.collibra.com" />
+        <title>Overview of the Traceability diagram pane</title>
+        <style>
+            body, p, td, table, tr, .bodytext, .stepfield {
+	            font-family: Verdana, arial, sans-serif;
+            }
+            .panel {
+                margin: 10px;
+                padding: 10px;
+                border: 1px solid #999;
+                background-color: #f0f0f0;
+            }
+            .noteMacro { border-style: solid; border-width: 1px; border-color: #F0C000; background-color: #FFFFCE; text-align:left;}
+            .warningMacro { border-style: solid; border-width: 1px; border-color: #c00; background-color: #fcc; text-align:left;}
+            .infoMacro { border-style: solid; border-width: 1px; border-color: #3c78b5; background-color: #D8E4F1; text-align:left;}
+            .tipMacro { border-style: solid; border-width: 1px; border-color: #090; background-color: #dfd; text-align:left;}
+            .informationMacroPadding { padding: 5px 0 0 5px; }
+
+            table.infoMacro td, table.warningMacro td, table.tipMacro td, table.noteMacro td, table.sectionMacro td {
+                border: none;
+            }
+
+            .grid {
+                margin: 2px 0px 5px 0px;
+                border-collapse: collapse;
+            }
+            .grid th  {
+                border: 1px solid #ccc;
+                padding: 2px 4px 2px 4px;
+                background: #f0f0f0;
+                text-align: center;
+            }
+            .grid td  {
+                border: 1px solid #ccc;
+                padding: 3px 4px 3px 4px;
+            }
+        </style>
+    </head>
+
+    <body style="background-color: white; padding: 10px;">
+        <h1>Overview of the Traceability diagram pane</h1>
+        &lt;p&gt;&lt;img class=&quot;confluence-embedded-image&quot; src=&quot;/download/attachments/13177145/diagram%20overview.png?version=1&amp;amp;modificationDate=1439454145675&amp;amp;api=v2&quot; data-image-src=&quot;/download/attachments/13177145/diagram%20overview.png?version=1&amp;amp;modificationDate=1439454145675&amp;amp;api=v2&quot;&gt;&lt;/p&gt;&lt;p&gt; &lt;/p&gt;&lt;div class=&quot;table-wrap&quot;&gt;&lt;table class=&quot;confluenceTable&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th class=&quot;confluenceTh&quot;&gt;No&lt;/th&gt;&lt;th class=&quot;confluenceTh&quot;&gt;Name&lt;/th&gt;&lt;th class=&quot;confluenceTh&quot;&gt;Description&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;confluenceTd&quot;&gt;1&lt;/td&gt;&lt;td class=&quot;confluenceTd&quot;&gt;View name&lt;/td&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p&gt;Here you can select a view from a list of applicable views for an asset of this type.&lt;/p&gt;&lt;p&gt;Note: You can modify, copy, delete and create views by clicking &lt;img class=&quot;confluence-embedded-image&quot; src=&quot;/download/attachments/13177145/preview.png?version=1&amp;amp;modificationDate=1435575542715&amp;amp;api=v2&quot; data-image-src=&quot;/download/attachments/13177145/preview.png?version=1&amp;amp;modificationDate=1435575542715&amp;amp;api=v2&quot;&gt;.&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;confluenceTd&quot;&gt;2&lt;/td&gt;&lt;td class=&quot;confluenceTd&quot;&gt;Display toolbar&lt;/td&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p&gt;Here you can choose &lt;em&gt;how&lt;/em&gt; the view is displayed. The buttons on the toolbar are explained &lt;a href=&quot;/display/DGC50/Traceability+diagram+Display+toolbar%3A+buttons&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan=&quot;1&quot; class=&quot;confluenceTd&quot;&gt;3&lt;/td&gt;&lt;td colspan=&quot;1&quot; class=&quot;confluenceTd&quot;&gt;&lt;img class=&quot;confluence-embedded-image&quot; src=&quot;/download/attachments/13177145/preview.png?version=1&amp;amp;modificationDate=1435575542715&amp;amp;api=v2&quot; data-image-src=&quot;/download/attachments/13177145/preview.png?version=1&amp;amp;modificationDate=1435575542715&amp;amp;api=v2&quot;&gt;&lt;/td&gt;&lt;td colspan=&quot;1&quot; class=&quot;confluenceTd&quot;&gt;&lt;p&gt;With this button you can:&lt;/p&gt;&lt;ul style=&quot;list-style-type: square;&quot;&gt;&lt;li&gt;Modify the current view&#39;s properties.&lt;/li&gt;&lt;li&gt;Copy the current view.&lt;/li&gt;&lt;li&gt;Delete the current view.&lt;/li&gt;&lt;li&gt;Create a new view.&lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan=&quot;1&quot; class=&quot;confluenceTd&quot;&gt;4&lt;/td&gt;&lt;td colspan=&quot;1&quot; class=&quot;confluenceTd&quot;&gt;Diagram&lt;/td&gt;&lt;td colspan=&quot;1&quot; class=&quot;confluenceTd&quot;&gt;This is the actual depiction of the traceability of an asset according to the view you selected.&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;
+    </body>
+</html>

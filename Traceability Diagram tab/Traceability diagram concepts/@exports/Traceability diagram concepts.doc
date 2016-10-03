@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <meta name="decorator" content="none" />
+        <base href="https://compass.collibra.com" />
+        <title>Traceability diagram concepts</title>
+        <style>
+            body, p, td, table, tr, .bodytext, .stepfield {
+	            font-family: Verdana, arial, sans-serif;
+            }
+            .panel {
+                margin: 10px;
+                padding: 10px;
+                border: 1px solid #999;
+                background-color: #f0f0f0;
+            }
+            .noteMacro { border-style: solid; border-width: 1px; border-color: #F0C000; background-color: #FFFFCE; text-align:left;}
+            .warningMacro { border-style: solid; border-width: 1px; border-color: #c00; background-color: #fcc; text-align:left;}
+            .infoMacro { border-style: solid; border-width: 1px; border-color: #3c78b5; background-color: #D8E4F1; text-align:left;}
+            .tipMacro { border-style: solid; border-width: 1px; border-color: #090; background-color: #dfd; text-align:left;}
+            .informationMacroPadding { padding: 5px 0 0 5px; }
+
+            table.infoMacro td, table.warningMacro td, table.tipMacro td, table.noteMacro td, table.sectionMacro td {
+                border: none;
+            }
+
+            .grid {
+                margin: 2px 0px 5px 0px;
+                border-collapse: collapse;
+            }
+            .grid th  {
+                border: 1px solid #ccc;
+                padding: 2px 4px 2px 4px;
+                background: #f0f0f0;
+                text-align: center;
+            }
+            .grid td  {
+                border: 1px solid #ccc;
+                padding: 3px 4px 3px 4px;
+            }
+        </style>
+    </head>
+
+    <body style="background-color: white; padding: 10px;">
+        <h1>Traceability diagram concepts</h1>
+        &lt;p&gt;To work with traceability diagrams and diagram views, you have to understand the following concepts.&lt;/p&gt;&lt;div class=&quot;table-wrap&quot;&gt;&lt;table class=&quot;confluenceTable&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th class=&quot;confluenceTh&quot;&gt;Concept&lt;/th&gt;&lt;th class=&quot;confluenceTh&quot;&gt;Description&lt;/th&gt;&lt;th class=&quot;confluenceTh&quot;&gt;Notes&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;confluenceTd&quot;&gt;Node&lt;/td&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p&gt;A term that is used in graph theory for an object.&lt;/p&gt;&lt;p&gt;In a DGC traceability diagram, a node is an asset or a complex relation.&lt;/p&gt;&lt;/td&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;ul&gt;&lt;li&gt;The node for an asset is depicted by a rectangle.&lt;/li&gt;&lt;li&gt;The node for a complex relation is depicted by a circle.&lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;confluenceTd&quot;&gt;Edge&lt;/td&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p&gt;A term that is used in graph theory for a relation.&lt;/p&gt;&lt;p&gt;In a DGC traceability diagram, an edge is a directed relation. The word &lt;em&gt;directed&lt;/em&gt; is added to indicate that the direction in which the relation is used is relevant for the diagram.&lt;/p&gt;&lt;/td&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;span&gt;An edge is normally depicted by an arrow between two nodes.&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;confluenceTd&quot;&gt;Diagram view&lt;/td&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p&gt;A kind of query that determines which nodes and edges have to be displayed in a diagram for a given asset.&lt;/p&gt;&lt;p&gt;The diagram view also determines some aspects of the layout of the diagram: how the nodes and edges have to be displayed.&lt;/p&gt;&lt;/td&gt;&lt;td class=&quot;confluenceTd&quot;&gt;You can define multiple diagram views for the same asset type. &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;confluenceTd&quot;&gt;Diagram&lt;/td&gt;&lt;td class=&quot;confluenceTd&quot;&gt;The diagram that results from a selected diagram view, when applied to a given asset.&lt;/td&gt;&lt;td class=&quot;confluenceTd&quot;&gt;&lt;p&gt;Example:&lt;/p&gt;&lt;img class=&quot;confluence-embedded-image&quot; width=&quot;301&quot; src=&quot;/download/attachments/13177136/diagram-entire-screen.png?version=1&amp;amp;modificationDate=1437985774600&amp;amp;api=v2&quot; data-image-src=&quot;/download/attachments/13177136/diagram-entire-screen.png?version=1&amp;amp;modificationDate=1437985774600&amp;amp;api=v2&quot;&gt;&lt;p&gt; &lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;confluenceTd&quot;&gt;Flow&lt;/td&gt;&lt;td class=&quot;confluenceTd&quot;&gt;The entire course of nodes and relations from the start node to the end node.&lt;/td&gt;&lt;td class=&quot;confluenceTd&quot;&gt; &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan=&quot;1&quot; class=&quot;confluenceTd&quot;&gt;Context&lt;/td&gt;&lt;td colspan=&quot;1&quot; class=&quot;confluenceTd&quot;&gt;A collection of nodes that does not belong in the flow. The nodes have an edge coming in from a flow node, however. Nodes can be context nodes if they represent a system, for example.&lt;/td&gt;&lt;td colspan=&quot;1&quot; class=&quot;confluenceTd&quot;&gt; &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan=&quot;1&quot; class=&quot;confluenceTd&quot;&gt;Loop&lt;/td&gt;&lt;td colspan=&quot;1&quot; class=&quot;confluenceTd&quot;&gt;A diagram view that keeps looking for the same node type and edge type.&lt;/td&gt;&lt;td colspan=&quot;1&quot; class=&quot;confluenceTd&quot;&gt; &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan=&quot;1&quot; class=&quot;confluenceTd&quot;&gt;Multi-step loop&lt;/td&gt;&lt;td colspan=&quot;1&quot; class=&quot;confluenceTd&quot;&gt;A diagram view that keeps looking for the same node types and edge types.&lt;/td&gt;&lt;td colspan=&quot;1&quot; class=&quot;confluenceTd&quot;&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;
+    </body>
+</html>

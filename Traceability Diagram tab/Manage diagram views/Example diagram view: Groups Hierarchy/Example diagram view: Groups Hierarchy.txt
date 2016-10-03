@@ -1,0 +1,16 @@
+<p>One of the packaged diagram views is the&nbsp;<strong>Groups Hierarchy</strong>&nbsp;view.&nbsp;</p><p>Below is a visual representation of the view.</p><p><ac:image ac:width="900"><ri:attachment ri:filename="example-groups-hierarchy.png" /></ac:image></p><p>The view is a loop and flows from Business Asset to Business Asset.&nbsp;<br />The view applies to any Business Asset, including any child asset type: Business Term, Acronym, KPI, Report, etc. &nbsp; &nbsp;</p><p>Below is the JSON code of the view.</p><ac:structured-macro ac:name="code"><ac:parameter ac:name="linenumbers">true</ac:parameter><ac:plain-text-body><![CDATA[{
+  "nodes": [
+    {
+      "id": "Business Asset",
+      "conceptTypeId": "00000000-0000-0000-0000-000000031101"
+    }
+  ],
+  "edges": [
+    {
+      "from": "Business Asset",
+      "to": "Business Asset",
+      "binaryFactTypeId": "00000000-0000-0000-0000-000000007021",
+      "roleDirection": true
+    }
+  ]
+}]]></ac:plain-text-body></ac:structured-macro>

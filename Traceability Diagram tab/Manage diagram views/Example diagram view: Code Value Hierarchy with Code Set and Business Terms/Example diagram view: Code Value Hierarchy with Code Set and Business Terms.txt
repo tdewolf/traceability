@@ -1,0 +1,38 @@
+<p>One of the packaged diagram views is the&nbsp;<strong>Code Value Hierarchy with Code Set and Business Terms</strong>&nbsp;view.&nbsp;</p><p>Below is a visual representation of the view.</p><p><ac:image ac:width="900"><ri:attachment ri:filename="example-view-code-value-hierarchy.png" /></ac:image></p><p>&nbsp;</p><p>Below is the JSON code of the view.</p><ac:structured-macro ac:name="code"><ac:parameter ac:name="linenumbers">true</ac:parameter><ac:plain-text-body><![CDATA[{
+  "layout": "HierarchyTopBottom",
+  "nodes": [
+    {
+      "id": "Code Value",
+      "conceptTypeId": "00000000-0000-0000-0000-000000021001"
+    },
+    {
+      "id": "Code Set",
+      "conceptTypeId": "00000000-0000-0000-0000-000000021002"
+    },
+    {
+      "id": "Business Term",
+      "conceptTypeId": "00000000-0000-0000-0000-000000011001"
+    }
+  ],
+  "edges": [
+    {
+      "from": "Business Term",
+      "to": "Code Value",
+      "binaryFactTypeId": "00000000-0000-0000-0000-000000007002",
+      "roleDirection": true
+    },
+    {
+      "from": "Code Value",
+      "to": "Code Set",
+      "binaryFactTypeId": "00000000-0000-0000-0000-000000007041",
+      "roleDirection": true,
+      "style": "reversed-box"
+    },
+    {
+      "from": "Code Value",
+      "to": "Code Value",
+      "binaryFactTypeId": "00000000-0000-0000-0000-000000007022",
+      "roleDirection": true
+    }
+  ]
+}]]></ac:plain-text-body></ac:structured-macro>
